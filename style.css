@@ -6,9 +6,22 @@
 html{
     font-family: "Arial", sans-serif;
     font-size: 15px;
+        background: rgb(246, 255, 255);
 }
 body{
     padding: 0rem 10rem;
+}
+
+.back-color{
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-color > p{
+    padding: 0 1rem;
+    margin: 0.5rem;
+    background: lightgrey;
 }
 
 h1{
@@ -22,7 +35,7 @@ h1{
     margin-bottom: 1rem;
 }
 main section{
-    padding-bottom: 1rem;
+    padding: 0 1rem;
     background: lightgrey;
     display: flex;
     flex-direction: row;
@@ -32,16 +45,14 @@ main p{
     text-align: center;
 }
 main figure{
-    height:  12rem; 
-    width: 30rem;
+    width: 25rem;
     text-align: center;
+    margin: 1rem 0;
 }
 figure img{
-    height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
-
 
 .carte{
     border: 1px solid;
@@ -49,21 +60,17 @@ figure img{
 }
 
 .carte h2{
-    padding: 0rem 0.5rem;
+    padding: 0.5rem;
+    margin: 0
 }
 
-.carte > p{
-    padding: 0rem 2rem;
-    background: lightgrey;
-}
-
-#frize > section{
+#frize .back-color{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.Experience{
-    background: white;
+.experience{
+    background: rgb(246, 255, 255);
     margin: 0.5rem 0rem;
     width: 35rem;
     text-align: center;
@@ -73,10 +80,4 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.back-color{
-    background: lightgray;
-    display: flex;
-    flex-direction: column;
 }
