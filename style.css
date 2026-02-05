@@ -1,0 +1,82 @@
+* {
+    /* permet de gerer les dimensiosn sans prendre en compte les padding et margin */
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+}
+body{
+    padding: 0rem 10rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.liens{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+main section{
+    padding-bottom: 1rem;
+    background: lightgrey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main p{
+    text-align: center;
+}
+main figure{
+    height:  12rem; 
+    width: 30rem;
+    text-align: center;
+}
+figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.carte{
+    border: 1px solid;
+    margin: 1rem 0rem;
+}
+
+.carte h2{
+    padding: 0rem 0.5rem;
+}
+
+.carte > p{
+    padding: 0rem 2rem;
+    background: lightgrey;
+}
+
+#frize > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Experience{
+    background: white;
+    margin: 0.5rem 0rem;
+    width: 35rem;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.back-color{
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+}
